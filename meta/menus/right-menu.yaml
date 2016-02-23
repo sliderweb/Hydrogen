@@ -1,0 +1,72 @@
+name: 'Правое меню'
+items:
+    -
+        title: Главная
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: index
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Портфолио
+        type: cms-page
+        code: ''
+        reference: portfolio
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Блог
+        type: cms-page
+        code: ''
+        reference: blog
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'О себе'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: about
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Расценки
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: pricing
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Контакты
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: contact
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

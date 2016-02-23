@@ -1,0 +1,40 @@
+/* font-family: "MyriadProCondRegular"; */
+@font-face {
+    font-family: "MyriadProCondRegular";
+    src: url("../fonts/MyriadProCond/MyriadProCondRegular/MyriadProCondRegular.eot");
+    src: url("../fonts/MyriadProCond/MyriadProCondRegular/MyriadProCondRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProCond/MyriadProCondRegular/MyriadProCondRegular.woff") format("woff"),
+    url("../fonts/MyriadProCond/MyriadProCondRegular/MyriadProCondRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProCondBold"; */
+@font-face {
+    font-family: "MyriadProCondBold";
+    src: url("../fonts/MyriadProCond/MyriadProCondBold/MyriadProCondBold.eot");
+    src: url("../fonts/MyriadProCond/MyriadProCondBold/MyriadProCondBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProCond/MyriadProCondBold/MyriadProCondBold.woff") format("woff"),
+    url("../fonts/MyriadProCond/MyriadProCondBold/MyriadProCondBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProCondItalic"; */
+@font-face {
+    font-family: "MyriadProCondItalic";
+    src: url("../fonts/MyriadProCond/MyriadProCondItalic/MyriadProCondItalic.eot");
+    src: url("../fonts/MyriadProCond/MyriadProCondItalic/MyriadProCondItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProCond/MyriadProCondItalic/MyriadProCondItalic.woff") format("woff"),
+    url("../fonts/MyriadProCond/MyriadProCondItalic/MyriadProCondItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProCondBoldItalic"; */
+@font-face {
+    font-family: "MyriadProCondBoldItalic";
+    src: url("../fonts/MyriadProCond/MyriadProCondBoldItalic/MyriadProCondBoldItalic.eot");
+    src: url("../fonts/MyriadProCond/MyriadProCondBoldItalic/MyriadProCondBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProCond/MyriadProCondBoldItalic/MyriadProCondBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProCond/MyriadProCondBoldItalic/MyriadProCondBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
