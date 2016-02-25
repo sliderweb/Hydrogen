@@ -5,24 +5,4 @@ is_hidden = 0
 meta_title = "SLIDER.WEB studio"
 meta_description = "Разработка, дизайн, инфраструктура."
 ==
-<?php
-function onRun()
-    {
-        // check if a valid object has been created
-        if( $object ){
-            // display all items
-            $this->portfolio = Item::paginate($this->property('itemsPerPage'), $this->property('pageNumber'));
-        }else{
-            // show the items in the portfolio
-            $this->portfolio = $object->items()->orderBy('id', 'desc'
-                /*$this->property('order')*/)
-                    ->paginate(
-                    $this->property('itemsPerPage'), 
-                    $this->property('pageNumber')
-                );
-        }
-
-    }
-?>
-==
 {% partial 'portfolio' %}
